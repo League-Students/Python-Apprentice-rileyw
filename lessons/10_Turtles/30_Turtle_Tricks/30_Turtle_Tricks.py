@@ -15,11 +15,13 @@ Refer to the previous program, Meet_Tina.py for examples of how to use these tur
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
-
+tina.color("blue")
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 def circleat(x, y, size):
+    tina.penup()
     tina.goto(x, y)
+    tina.pendown()
     tina.begin_fill()
     tina.circle(size)
     tina.end_fill
