@@ -16,6 +16,6 @@ import turtle
 turtle.setup(600, 600, 0, 0)
 turtle = turtle.Turtle
 for i in range(5):
-    tina.forward(50)
-    tina.left(72)
+    turtle.forward(50)
+    turtle.left(72)
 ... # Your code here
