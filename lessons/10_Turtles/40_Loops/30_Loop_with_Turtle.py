@@ -18,4 +18,3 @@ turtle = turtle.Turtle
 for i in range(5):
     turtle.forward(50)
     turtle.left(72)
-... # Your code here
