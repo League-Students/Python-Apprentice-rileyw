@@ -19,12 +19,12 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 def circleat(x, y, size)
-tina.goto(x, y)
-tina.begin_fill()
-tina.circle(size)
-tina.end_fill
+    tina.goto(x, y)
+    tina.begin_fill()
+    tina.circle(size)
+    tina.end_fill
 ... # Your code here
-
+circleat(-600, 0, 50)
 turtle.exitonclick()                    # Close the window when we click on it
 
 # Save your progress by checking in your code.
