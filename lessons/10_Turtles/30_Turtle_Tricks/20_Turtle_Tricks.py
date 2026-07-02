@@ -24,6 +24,7 @@ def tina.pentagon(color, length):
 tina.pentagon("blue", 50)
 tina.pentagon("red", 50)
 tina.pentagon("yellow", 50)
-tina.pentagon("red", 50)
+tina.pentagon("green", 50)
+tina.pentagon("purple", 50)
 
 turtle.exitonclick()                    # Close the window when we click on it
