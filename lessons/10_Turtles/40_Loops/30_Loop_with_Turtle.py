@@ -14,7 +14,7 @@ name: Loop With Turtle
 """
 import turtle
 turtle.setup(600, 600, 0, 0)
-turtle = turtle.Turtle
+turtle = turtle.Turtle()
 for i in range(5):
     turtle.forward(50)
     turtle.left(72)
