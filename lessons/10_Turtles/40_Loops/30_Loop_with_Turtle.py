@@ -12,5 +12,7 @@ In this program, use a loop to draw a regular pentagon (5-sided shape) with Tina
 uid: BpGnQq64
 name: Loop With Turtle
 """
-im
+import turtle
+turtle = turtle.Turtle
+turtle.setup(600, 600, 0, 0)
 ... # Your code here
