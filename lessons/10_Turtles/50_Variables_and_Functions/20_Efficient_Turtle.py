@@ -21,11 +21,13 @@ def draw_polygon(sides, size):
     angle = 360/sides
     
     for i in range(sides):
-        tina.forward() 
-draw_polygon(...)                        # Draw a square
+        tina.forward(size) 
+        tina.forward(angle)
+draw_polygon(4, 50)                        # Draw a square
 
-...                                      # Move tina to another spot on the screen
-
+tina.penup()
+tina.goto(-200, 200)                                      # Move tina to another spot on the screen
+tina.pendown()
 draw_polygon(...)                        # Draw a pentagon
 
 ...                                      # Move tina to another spot on the screen
