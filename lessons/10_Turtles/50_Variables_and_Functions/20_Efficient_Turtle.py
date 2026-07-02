@@ -22,7 +22,7 @@ def draw_polygon(sides, size):
     
     for i in range(sides):
         tina.forward(size) 
-        tina.forward(angle)
+        tina.left(angle)
 draw_polygon(4, 50)                        # Draw a square
 
 tina.penup()
@@ -32,6 +32,7 @@ draw_polygon(5, 50)                        # Draw a pentagon
 
 tina.penup()
 tina.goto(-200, 0)
+tina.pendown()
 draw_polygon(6, 60)                        # Draw a hexagon
 
 turtle.exitonclick()                     # Close the window when we click on it
