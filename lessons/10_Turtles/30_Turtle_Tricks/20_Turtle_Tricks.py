@@ -14,17 +14,17 @@ import turtle                           # Tell Python we want to work with the t
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
-def tina.pentagon(color, length):
+def tinapentagon(color, length):
     tina.pencolor(color)
     tina.forward(length)
     tina.left(72)
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
 # tina.pencolor()
-tina.pentagon("blue", 50)
-tina.pentagon("red", 50)
-tina.pentagon("yellow", 50)
-tina.pentagon("green", 50)
-tina.pentagon("purple", 50)
+tinapentagon("blue", 50)
+tinapentagon("red", 50)
+tinapentagon("yellow", 50)
+tinapentagon("green", 50)
+tinapentagon("purple", 50)
 
 turtle.exitonclick()                    # Close the window when we click on it
