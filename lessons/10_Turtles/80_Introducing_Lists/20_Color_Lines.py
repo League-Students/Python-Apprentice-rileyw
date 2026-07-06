@@ -16,6 +16,7 @@ colors = [ 'red', 'blue', 'black', 'orange']    # define a list of colors
 
 for color in colors:
     tina.color(color)
+    
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 
 ... # Your code here
