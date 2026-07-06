@@ -14,9 +14,8 @@ tina.speed(2)                           # Move at a moderate speed, not too fast
 
 colors = [ 'red', 'blue', 'black', 'orange']    # define a list of colors
 
-for color in colors:                            # loop through the colors
-    ... # Your code here
-
+for color in colors:
+    
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 
 ... # Your code here
