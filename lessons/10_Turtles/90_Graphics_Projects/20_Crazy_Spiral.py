@@ -16,7 +16,7 @@ forward = 2
 while True:
     t.left(left)
     t.forward(forward)
-    
+    forwadr
 ... # Copy code to make a turtle and set up the window
 
 t = ... # Create a turtle named t
