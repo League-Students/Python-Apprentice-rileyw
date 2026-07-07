@@ -8,9 +8,11 @@ uid: zfzMbyH7
 name: Crazy Spiral
 """
 import turtle
+t = 
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 window = turtle.Screen()
 left = 90
+forward = 2
 while True:
     t
 ... # Copy code to make a turtle and set up the window
