@@ -30,8 +30,8 @@ my_turtle.width(1)
 sides = 2
 angle = 360 / sides
 
-for i in range(1000000):
-    my_
+for i in range(100):
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
     my_turtle.right(angle + 1)
+my_turtle.width
