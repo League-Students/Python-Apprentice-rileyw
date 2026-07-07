@@ -39,7 +39,7 @@ for i in range(360):
     my_turtle.forward(i)
 
     # Turn the turtle (360/7 + i*5) degrees to the right
-    my_turtle.right(360 / 20 - i/6)
+    my_turtle.right(360 / 20 - i/100)
 
     # Change the turtle width to 'i' (the loop variable)
     my_turtle.width(i)
