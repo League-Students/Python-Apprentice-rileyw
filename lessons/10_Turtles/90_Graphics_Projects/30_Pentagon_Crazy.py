@@ -35,6 +35,8 @@ for i in range(1000000):
         my_turtle.width(2)
     if i == 200:
         my_turtle.width(3)
+    if i == 300:
+        my_turtle.width(4)
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
     my_turtle.right(angle + 1)
