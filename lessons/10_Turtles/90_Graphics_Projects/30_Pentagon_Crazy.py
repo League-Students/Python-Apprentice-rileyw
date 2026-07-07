@@ -38,7 +38,3 @@ for i in range(360):
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
     my_turtle.right(angle + 1)
-
-my_turtle.hideturtle()
-
-turtle.done()
