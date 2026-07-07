@@ -7,6 +7,9 @@ in 10_Flaming_Ninja_Star.py, but use what you've learned about loops
 uid: zfzMbyH7
 name: Crazy Spiral
 """
+def get_random_color():
+    return "#%06X" % (random.randint(0, 0xFFFFFF))
+
 import turtle
 t = turtle.Turtle()
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
@@ -18,3 +21,5 @@ while True:
     t.forward(forward)
     forward = forward + 2
     left = left - 1
+    t.pencolor(get_random_color())
+
