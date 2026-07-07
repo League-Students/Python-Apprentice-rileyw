@@ -31,9 +31,10 @@ sides = 5
 angle = 360 / sides
 intr = 0
 while True:
-    if i == 100:
+    
+    if intr == 100:
         my_turtle.width(2)
-    if i == 200:
+    if intr == 200:
         my_turtle.width(3)
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
