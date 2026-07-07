@@ -39,10 +39,10 @@ for i in range(360):
     my_turtle.forward(i)
 
     # Turn the turtle (360/7 + i*5) degrees to the right
-    my_turtle.right(360 / 20 - i/100)
+    my_turtle.right(360 / 20 - i/250)
 
     # Change the turtle width to 'i' (the loop variable)
-    my_turtle.width(i)
+    my_turtle.width(i/8)
 
     # Check the pattern against the picture in the recipe. If it matches, you are done.
 
