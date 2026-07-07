@@ -34,4 +34,4 @@ for i in range(100):
     my_turtle.pencolor(get_next_color(i))
     my_turtle.forward(i)
     my_turtle.right(angle + 1)
-my_turtle.width
+my_turtle.width()
