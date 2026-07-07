@@ -10,7 +10,7 @@ name: Pentagon Crazy
 import random
 import turtle
 
-colors = ("navy", "green", "maroon", "red", "orange")
+colors = ("navy", "green", "maroon", "red", "white")
 
 def get_random_color():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
@@ -27,7 +27,7 @@ my_turtle.shape("turtle")
 my_turtle.speed(0)
 my_turtle.width(1)
 
-sides = 5
+sides = 4
 angle = 360 / sides
 
 for i in range(1000000):
