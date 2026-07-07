@@ -46,6 +46,7 @@ while True:
     t.right(62)
     t.forward(base_size)
     t.end_fill()
+    flame_size = flame_size + 1
 
 t.hideturtle()
 
