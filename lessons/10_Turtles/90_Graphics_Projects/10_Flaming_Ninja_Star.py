@@ -47,7 +47,7 @@ while True:
     t.forward(base_size)
     t.end_fill()
     flame_size = flame_size + 1
-    base_size = 
+    base_size = base_size
 
 t.hideturtle()
 
