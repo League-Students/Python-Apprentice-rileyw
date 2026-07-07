@@ -26,7 +26,7 @@ def get_next_color(i):
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 window = turtle.Screen()
 
-base_size = 200  # the size of the black part of the star
+base_size = 50  # the size of the black part of the star
 flame_size = 11  # the length of the flaming arms
 
 t = turtle.Turtle()
@@ -47,7 +47,7 @@ while True:
     t.forward(base_size)
     t.end_fill()
     flame_size = flame_size + 1
-    base_size = base_size
+    base_size = base_size + 1
 
 t.hideturtle()
 
