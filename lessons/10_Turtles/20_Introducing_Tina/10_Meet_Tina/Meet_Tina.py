@@ -8,7 +8,8 @@ cam = 1
 cam_colors = ["white", "blue", "red", "black", "green", "gray"]
 tina_cam = [1, 3, 4, 5]
 tina_progress = 0
-move_anim(animname)
+def move_anim(animname):
+    if animname == tina
 
 def ShowHideTina(cam_num):
     if cam_num == tina_cam[tina_progress]:
