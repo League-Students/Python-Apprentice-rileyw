@@ -19,9 +19,7 @@ def OpenCam3():
     screen.bgcolor(cam_colors[2])
 
 def OpenCam4():
-    if cam != 4:
-        print("Cam 4")
-        cam = 4
+    print("Cam 4")
     screen.bgcolor(cam_colors[3])
 
 def OpenCam5():
