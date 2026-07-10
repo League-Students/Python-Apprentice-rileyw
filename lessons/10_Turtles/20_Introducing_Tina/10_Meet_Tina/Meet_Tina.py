@@ -55,5 +55,6 @@ screen.onkey(OpenOffice, "s")
 
 while True:
     time.sleep(5)
+    tina_progress += 1
 
 turtle.exitonclick()
