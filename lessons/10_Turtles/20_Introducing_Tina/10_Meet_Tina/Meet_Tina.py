@@ -13,13 +13,13 @@ def move_tina():
     tina_progress += 1
     ShowHideTina()
     screen.ontimer(move_tina, 5000)
-if JUMPSCARE[tina_progress] > 5:
+if tina_cam[tina_progress] > 5:
     print("JUMPSCARE")
     
 
 def ShowHideTina():
     global cam
-    if cam == JUMPSCARE[tina_progress]:
+    if cam == tina_cam[tina_progress]:
         tina.showturtle()
     else:
         tina.hideturtle()
