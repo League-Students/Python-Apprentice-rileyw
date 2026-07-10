@@ -50,12 +50,16 @@ def OpenCam4():
     screen.bgcolor(cam_colors[3])
 
 def OpenCam5():
-    ShowHideTina(5)
+    global cam
+    cam == 5
+    ShowHideTina()
     print("Cam 5")
     screen.bgcolor(cam_colors[4])
 
 def OpenOffice():
-    ShowHideTina(0)
+    global cam
+    cam == 0
+    ShowHideTina()
     print("Office")
     screen.bgcolor(cam_colors[5])
 
