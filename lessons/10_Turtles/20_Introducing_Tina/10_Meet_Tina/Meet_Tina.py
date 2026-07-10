@@ -1,6 +1,6 @@
 import turtle
 tina = turtle.Turtle()
-tina.shape = ("turtle")
+tina.shape("turtle")
 screen = turtle.Screen()
 screen.setup(500, 500)
 cam = 1
@@ -34,7 +34,7 @@ def OpenCam4():
     screen.bgcolor(cam_colors[3])
 
 def OpenCam5():
-    ShowHideTuna(5)
+    ShowHideTina(5)
     print("Cam 5")
     screen.bgcolor(cam_colors[4])
 
