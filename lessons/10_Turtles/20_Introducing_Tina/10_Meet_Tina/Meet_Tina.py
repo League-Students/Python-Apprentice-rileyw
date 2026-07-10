@@ -10,8 +10,9 @@ tina_progress = 0
 
 def ShowHideTina(cam_num):
     if cam_num == tina_progress:
-        turtle.show
+        tina.showturtle()
     else:
+        tina.hideturtle()
 def OpenCam1():
     print("Cam 1")
     screen.bgcolor(cam_colors[0])
