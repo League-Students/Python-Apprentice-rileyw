@@ -3,9 +3,9 @@ Fox = (1)
 Bear = (2)
 Bonnie = (3)
 Bird = (4)
-print "Who do you want to find?"
+print ("Who do you want to find?")
 print ("These are the codes Bear = Freddy Fox = Foxy \nBon = Bonnie Bird = Chika")
-Look = input("Who do you want to look for?")
+Look = nput("Who do you want to look for?")
 
 if Look == "Fox":
   print ("He is at pirates cove")
