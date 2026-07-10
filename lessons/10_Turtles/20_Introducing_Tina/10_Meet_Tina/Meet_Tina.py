@@ -9,6 +9,7 @@ cam_colors = ["white", "blue", "red", "black", "green", "gray"]
 tina_cam = [1, 3, 4, 5]
 tina_progress = 0
 def move_tina():
+    global tina_progress
     tina_progress += 1
     
 
@@ -57,6 +58,6 @@ screen.onkey(OpenCam4, "4")
 screen.onkey(OpenCam5, "5")
 screen.onkey(OpenOffice, "s")
 
-screen.ontimer(move_tina, 5)
+screen.ontimer(move_tina, 5000)
 
 turtle.exitonclick()
