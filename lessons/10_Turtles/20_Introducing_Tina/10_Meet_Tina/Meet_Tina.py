@@ -53,5 +53,7 @@ screen.onkey(OpenCam4, "4")
 screen.onkey(OpenCam5, "5")
 screen.onkey(OpenOffice, "s")
 
+while True:
+    time.sleep(5)
 
 turtle.exitonclick()
