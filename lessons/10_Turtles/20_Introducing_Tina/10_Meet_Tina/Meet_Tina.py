@@ -38,6 +38,9 @@ def OpenCam5():
 screen.listen()
 screen.onkey(OpenCam1, "1")
 screen.onkey(OpenCam2, "2")
+screen.onkey(OpenCam3, "3")
+screen.onkey(OpenCam4, "4")
+screen.onkey(OpenCam5, "5")
 
 
 turtle.exitonclick()
