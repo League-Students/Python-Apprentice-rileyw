@@ -34,7 +34,7 @@ def OpenCam5():
         print("Cam 5")
         cam = 5
     screen.bgcolor(cam_colors[4])
-    
+
 screen.listen()
 screen.onkey(OpenCam1, "1")
 screen.onkey(OpenCam2, "2")
