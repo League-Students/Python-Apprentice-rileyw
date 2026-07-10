@@ -23,16 +23,14 @@ def OpenCam4():
     screen.bgcolor(cam_colors[3])
 
 def OpenCam5():
-    if cam != 5:
-        print("Cam 5")
-        cam = 5
+    print("Cam 5")
     screen.bgcolor(cam_colors[4])
 
 def OpenOffice():
-    if cam != 6:
-        print("Office")
-        cam = 6
+    print("Office")
     screen.bgcolor(cam_colors[5])
+
+OpenOffice()
 
 screen.listen()
 screen.onkey(OpenCam1, "1")
