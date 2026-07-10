@@ -11,3 +11,7 @@ def OpenCam(number):
 
 screen.listen()
 screen.onkey(OpenCam(1), "1")
+screen.onkey(OpenCam(2), "2")
+
+
+turtle.exitonclick()
