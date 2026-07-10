@@ -3,7 +3,7 @@ tina = turtle.Turtle()
 screen = turtle.Screen()
 screen.setup(500, 500)
 cam = 1
-cam_colors = ["white", "blue", "red", "black", "green"]
+cam_colors = ["white", "blue", "red", "black", "green", "gray"]
 
 def OpenCam1():
     if cam != 1:
@@ -39,7 +39,7 @@ def OpenOffice():
     if cam != 6:
         print("Office")
         cam = 6
-    screen.bgcolor(cam_colors[4])
+    screen.bgcolor(cam_colors[5])
 
 screen.listen()
 screen.onkey(OpenCam1, "1")
@@ -47,6 +47,7 @@ screen.onkey(OpenCam2, "2")
 screen.onkey(OpenCam3, "3")
 screen.onkey(OpenCam4, "4")
 screen.onkey(OpenCam5, "5")
+screen.onkey(OpenOffice, "")
 
 
 turtle.exitonclick()
