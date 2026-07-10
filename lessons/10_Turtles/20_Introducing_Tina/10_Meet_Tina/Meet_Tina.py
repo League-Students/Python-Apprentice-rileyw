@@ -11,6 +11,7 @@ tina_progress = 0
 def move_tina():
     global tina_progress
     tina_progress += 1
+    screen.ontimer(move_tina, 5000)
     
 
 def ShowHideTina(cam_num):
