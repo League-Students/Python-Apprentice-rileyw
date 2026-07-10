@@ -7,7 +7,8 @@ cam_colors = ["white", "blue", "red", "black", "green"]
 
 def OpenCam1():
     if cam != 1
-    print("Cam 1")
+        print("Cam 1")
+        cam = 1
     screen.bgcolor(cam_colors[0])
 
 def OpenCam2():
