@@ -29,14 +29,17 @@ def OpenCam3():
     screen.bgcolor(cam_colors[2])
 
 def OpenCam4():
+    ShowHideTina(4)
     print("Cam 4")
     screen.bgcolor(cam_colors[3])
 
 def OpenCam5():
+    ShowHideTuna(5)
     print("Cam 5")
     screen.bgcolor(cam_colors[4])
 
 def OpenOffice():
+    ShowHideTina(0)
     print("Office")
     screen.bgcolor(cam_colors[5])
 
