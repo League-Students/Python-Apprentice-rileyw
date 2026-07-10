@@ -1,5 +1,6 @@
 import turtle
 tina = turtle.Turtle()
+tina.shape = ("turtle")
 screen = turtle.Screen()
 screen.setup(500, 500)
 cam = 1
