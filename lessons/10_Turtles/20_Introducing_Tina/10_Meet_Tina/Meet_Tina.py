@@ -19,11 +19,12 @@ def OpenCam1():
     screen.bgcolor(cam_colors[0])
 
 def OpenCam2():
-    ShowHideTina
+    ShowHideTina(2)
     print("Cam 2")
     screen.bgcolor(cam_colors[1])
 
 def OpenCam3():
+    ShowHideTina(3)
     print("Cam 3")
     screen.bgcolor(cam_colors[2])
 
