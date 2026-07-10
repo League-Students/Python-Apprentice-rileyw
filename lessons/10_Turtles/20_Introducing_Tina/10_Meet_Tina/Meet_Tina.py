@@ -6,7 +6,7 @@ screen = turtle.Screen()
 screen.setup(500, 500)
 cam = 1
 cam_colors = ["white", "blue", "red", "black", "green", "gray"]
-JUMPSCARE = [1, 3, 4, 5, 6]
+JUMPSCARE = [1, 3, 4, 5, 6,]
 tina_progress = 0
 def move_tina():
     global tina_progress
@@ -67,6 +67,7 @@ screen.onkey(OpenCam3, "3")
 screen.onkey(OpenCam4, "4")
 screen.onkey(OpenCam5, "5")
 screen.onkey(OpenOffice, "s")
+screen.onkey(ScareTina, "w")
 
 
 screen.ontimer(move_tina, 5000)
