@@ -25,10 +25,16 @@ def OpenCam3():
 
 def OpenCam4():
     if cam != 4:
-        print("Cam 3")
-        cam = 3
-    screen.bgcolor(cam_colors[2])
+        print("Cam 4")
+        cam = 4
+    screen.bgcolor(cam_colors[3])
 
+def OpenCam5():
+    if cam != 5:
+        print("Cam 5")
+        cam = 5
+    screen.bgcolor(cam_colors[4])
+    
 screen.listen()
 screen.onkey(OpenCam1, "1")
 screen.onkey(OpenCam2, "2")
