@@ -9,16 +9,17 @@ tina_cam = [1, 3, 4, 5]
 tina_progress = 0
 
 def ShowHideTina(cam_num):
-    if cam_num == tina_progress:
+    if cam_num == tina_cam[tina_progress]:
         tina.showturtle()
     else:
         tina.hideturtle()
 def OpenCam1():
-    tina
+    ShowHideTina(1)
     print("Cam 1")
     screen.bgcolor(cam_colors[0])
 
 def OpenCam2():
+    ShowHideTina
     print("Cam 2")
     screen.bgcolor(cam_colors[1])
 
