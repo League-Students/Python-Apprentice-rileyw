@@ -43,7 +43,9 @@ def OpenCam3():
     screen.bgcolor(cam_colors[2])
 
 def OpenCam4():
-    ShowHideTina(4)
+    global cam
+    cam == 4
+    ShowHideTina()
     print("Cam 4")
     screen.bgcolor(cam_colors[3])
 
