@@ -36,8 +36,8 @@ def OpenCam5():
     screen.bgcolor(cam_colors[4])
 
 def OpenOffice():
-    if cam != 5:
-        print("Cam 5")
+    if cam != 6:
+        print("Office")
         cam = 6
     screen.bgcolor(cam_colors[4])
 
