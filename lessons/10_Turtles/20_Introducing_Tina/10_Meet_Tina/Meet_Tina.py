@@ -8,8 +8,10 @@ cam_colors = ["white", "blue", "red", "black", "green", "gray"]
 tina_path = [1, 2, 3, 4, 5]
 tina_progress = 0
 
-def ShowHideTina
-    if cam_num == 
+def ShowHideTina():
+    if cam_num == tina_progress:
+        turtle.show
+    else:
 def OpenCam1():
     print("Cam 1")
     screen.bgcolor(cam_colors[0])
