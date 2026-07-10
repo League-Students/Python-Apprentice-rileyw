@@ -47,7 +47,7 @@ screen.onkey(OpenCam2, "2")
 screen.onkey(OpenCam3, "3")
 screen.onkey(OpenCam4, "4")
 screen.onkey(OpenCam5, "5")
-screen.onkey(OpenOffice, "")
+screen.onkey(OpenOffice, "s")
 
 
 turtle.exitonclick()
