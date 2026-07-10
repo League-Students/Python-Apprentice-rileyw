@@ -14,6 +14,7 @@ def ShowHideTina(cam_num):
     else:
         tina.hideturtle()
 def OpenCam1():
+    tina
     print("Cam 1")
     screen.bgcolor(cam_colors[0])
 
