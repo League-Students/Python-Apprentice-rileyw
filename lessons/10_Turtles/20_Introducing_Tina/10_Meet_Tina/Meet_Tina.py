@@ -7,4 +7,4 @@ cam_colors = ["white", "blue", "red", "black", "green"]
 
 def OpenCam(number):
     print ("Cam 1")
-    screen.bgcolor(cam_colors[0])
+    screen.bgcolor(cam_colors[number - 1])
