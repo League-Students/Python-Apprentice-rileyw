@@ -7,7 +7,6 @@ cam = 1
 cam_colors = ["white", "blue", "red", "black", "green", "gray"]
 
 def OpenCam1():
-    global cam
     if cam != 1:
         print("Cam 1")
         cam = 1
