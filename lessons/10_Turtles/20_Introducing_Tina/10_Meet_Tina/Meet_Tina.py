@@ -9,6 +9,10 @@ def OpenCam1():
     print("Cam 1")
     screen.bgcolor(cam_colors[0])
 
+def OpenCam2():
+    print("Cam 1")
+    screen.bgcolor(cam_colors[0])
+
 screen.listen()
 screen.onkey(OpenCam1, "1")
 screen.onkey(OpenCam2, "2")
