@@ -21,7 +21,13 @@ def OpenCam3():
     if cam != 3:
         print("Cam 3")
         cam = 3
-    screen.bgcolor(cam_colors[1])
+    screen.bgcolor(cam_colors[2])
+
+def OpenCam4():
+    if cam != 4:
+        print("Cam 3")
+        cam = 3
+    screen.bgcolor(cam_colors[2])
 
 screen.listen()
 screen.onkey(OpenCam1, "1")
