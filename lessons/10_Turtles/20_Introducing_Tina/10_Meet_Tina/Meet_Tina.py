@@ -14,7 +14,7 @@ def move_tina():
     ShowHideTina()
     screen.ontimer(move_tina, 5000)
 if JUMPSCARE[tina_progress] == 6:
-    print("JUMPSCARE)
+    print("JUMPSCARE")
     
 
 def ShowHideTina():
@@ -67,6 +67,7 @@ screen.onkey(OpenCam3, "3")
 screen.onkey(OpenCam4, "4")
 screen.onkey(OpenCam5, "5")
 screen.onkey(OpenOffice, "s")
+
 
 screen.ontimer(move_tina, 5000)
 
