@@ -14,6 +14,7 @@ def move_tina():
     ShowHideTina()
     screen.ontimer(move_tina, 5000)
 if JUMPSCARE[tina_progress] == 6:
+    p
     
 
 def ShowHideTina():
