@@ -13,7 +13,7 @@ def move_tina():
     tina_progress += 1
     ShowHideTina()
     screen.ontimer(move_tina, 5000)
-    
+
     
 
 def ShowHideTina():
@@ -60,7 +60,6 @@ def OpenCam5():
 def OpenOffice():
     global cam
     cam = 0
-    ShowHideTina()
     print("Office")
     screen.bgcolor(cam_colors[5])
 
