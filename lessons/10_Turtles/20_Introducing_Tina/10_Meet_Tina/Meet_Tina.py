@@ -6,13 +6,14 @@ screen = turtle.Screen()
 screen.setup(500, 500)
 cam = 0
 cam_colors = ["white", "blue", "red", "black", "green", "gray"]
-tina_cam = [1, 3, 4, 5]
+tina_cam = [1, 3, 4, 5, 6]
 tina_progress = 0
 def move_tina():
     global tina_progress
     tina_progress += 1
     ShowHideTina()
     screen.ontimer(move_tina, 5000)
+    
     
 
 def ShowHideTina():
@@ -23,42 +24,42 @@ def ShowHideTina():
         tina.hideturtle()
 def OpenCam1():
     global cam
-    cam == 1
+    cam = 1
     ShowHideTina()
     print("Cam 1")
     screen.bgcolor(cam_colors[0])
 
 def OpenCam2():
     global cam
-    cam == 2
+    cam = 2
     ShowHideTina()
     print("Cam 2")
     screen.bgcolor(cam_colors[1])
 
 def OpenCam3():
     global cam
-    cam == 3
+    cam = 3
     ShowHideTina()
     print("Cam 3")
     screen.bgcolor(cam_colors[2])
 
 def OpenCam4():
     global cam
-    cam == 4
+    cam = 4
     ShowHideTina()
     print("Cam 4")
     screen.bgcolor(cam_colors[3])
 
 def OpenCam5():
     global cam
-    cam == 5
+    cam = 5
     ShowHideTina()
     print("Cam 5")
     screen.bgcolor(cam_colors[4])
 
 def OpenOffice():
     global cam
-    cam == 0
+    cam = 0
     ShowHideTina()
     print("Office")
     screen.bgcolor(cam_colors[5])
