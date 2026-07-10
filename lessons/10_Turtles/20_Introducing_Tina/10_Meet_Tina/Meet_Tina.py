@@ -11,7 +11,7 @@ tina_progress = 0
 def move_tina():
     global tina_progress
     tina_progress += 1
-    ShowHideTina
+    ShowHideTina()
     screen.ontimer(move_tina, 5000)
     
 
@@ -22,17 +22,23 @@ def ShowHideTina():
     else:
         tina.hideturtle()
 def OpenCam1():
-    ShowHideTina(1)
+    global cam
+    cam == 1
+    ShowHideTina()
     print("Cam 1")
     screen.bgcolor(cam_colors[0])
 
 def OpenCam2():
-    ShowHideTina(2)
+    global cam
+    cam == 2
+    ShowHideTina()
     print("Cam 2")
     screen.bgcolor(cam_colors[1])
 
 def OpenCam3():
-    ShowHideTina(3)
+    global cam
+    cam == 3
+    ShowHideTina()
     print("Cam 3")
     screen.bgcolor(cam_colors[2])
 
