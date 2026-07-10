@@ -4,19 +4,20 @@ tina = turtle.Turtle()
 tina.shape("turtle")
 screen = turtle.Screen()
 screen.setup(500, 500)
-cam = 1
+cam = 0
 cam_colors = ["white", "blue", "red", "black", "green", "gray"]
 tina_cam = [1, 3, 4, 5]
 tina_progress = 0
 def move_tina():
     global tina_progress
     tina_progress += 1
-    S
+    ShowHideTina
     screen.ontimer(move_tina, 5000)
     
 
-def ShowHideTina(cam_num):
-    if cam_num == tina_cam[tina_progress]:
+def ShowHideTina():
+    global cam
+    if cam == tina_cam[tina_progress]:
         tina.showturtle()
     else:
         tina.hideturtle()
