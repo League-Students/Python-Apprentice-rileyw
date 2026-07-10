@@ -5,7 +5,8 @@ screen = turtle.Screen()
 screen.setup(500, 500)
 cam = 1
 cam_colors = ["white", "blue", "red", "black", "green", "gray"]
-tina_progress = 1
+
+tina_progress = 0
 
 def ShowHideTina(cam_num):
     if cam_num == tina_progress:
